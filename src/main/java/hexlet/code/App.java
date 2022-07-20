@@ -24,10 +24,10 @@ public final class App implements Callable<Integer> {
     @Option(names = {"-f", "--format"}, defaultValue = "stylish",
             description = "the file to use (default: ${DEFAULT-VALUE})", paramLabel = "format")
     private String format = "stylish";
-    @Parameters(paramLabel = "0",
+    @Parameters(paramLabel = "filepath1",
             description = "path to first file")
     private String filepath1;
-    @Parameters(paramLabel = "1",
+    @Parameters(paramLabel = "filepath2",
             description = "path to second file")
     private String filepath2;
 
